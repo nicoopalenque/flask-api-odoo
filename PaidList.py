@@ -7,10 +7,10 @@ from datetime import date
 class PaidList:
     def __init__(self):
         self.username = 'admin' #the user
-        self.pwd = 'Valerza2020' #the user
-        self.dbname = 'valersa'    #the database
+        self.pwd = '' #the user
+        self.dbname = ''    #the database
         self.uid = 0
-        self.url = 'http://54.211.171.131:8069' #url
+        self.url = '' #url
 
 
     def getConnection(self):
